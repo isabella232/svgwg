@@ -1,13 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg width="12cm" height="4cm" viewBox="0 0 1200 400"
-     xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <desc>Example rect01 - rectangle with sharp corners</desc>
-
-  <!-- Show outline of viewport using 'rect' element -->
-  <rect x="1" y="1" width="1198" height="398"
-        fill="none" stroke="blue" stroke-width="2"/>
-
-  <rect x="400" y="100" width="400" height="200"
-        fill="yellow" stroke="navy" stroke-width="10"  />
-</svg>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="12cm" height="4cm" version="1.1" viewBox="0 0 1200 400"><desc>Example rect01 - rectangle with sharp corners</desc><rect width="1198" height="398" x="1" y="1" fill="none" stroke="#00f" stroke-width="2"/><rect width="400" height="200" x="400" y="100" fill="#ff0" stroke="navy" stroke-width="10"/></svg>

@@ -1,10 +1,4 @@
-<?xml version="1.0" standalone="no"?>
-<svg width="6cm" height="5cm" viewBox="0 0 600 500"
-     xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <desc>Example script01 - invoke an ECMAScript function from an onclick event
-  </desc>
-  <!-- ECMAScript to change the radius with each click -->
-  <script type="application/ecmascript"> <![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" width="6cm" height="5cm" version="1.1" viewBox="0 0 600 500"><desc>Example script01 - invoke an ECMAScript function from an onclick event</desc><script type="application/ecmascript"><![CDATA[
     function circle_click(evt) {
       var circle = evt.target;
       var currentRadius = circle.getAttribute("r");
@@ -13,17 +7,4 @@
       else
         circle.setAttribute("r", currentRadius*0.5);
     }
-  ]]> </script>
-
-  <!-- Outline the drawing area with a blue line -->
-  <rect x="1" y="1" width="598" height="498" fill="none" stroke="blue"/>
-
-  <!-- Act on each click event -->
-  <circle onclick="circle_click(evt)" cx="300" cy="225" r="100"
-          fill="red"/>
-
-  <text x="300" y="480" 
-        font-family="Verdana" font-size="35" text-anchor="middle">
-    Click on circle to change its size
-  </text>
-</svg>
+  ]]></script><rect width="598" height="498" x="1" y="1" fill="none" stroke="#00f"/><circle cx="300" cy="225" r="100" fill="red" onclick="circle_click(evt)"/><text x="300" y="480" font-family="Verdana" font-size="35" text-anchor="middle">Click on circle to change its size</text></svg>

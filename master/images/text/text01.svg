@@ -1,11 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg width="10cm" height="3cm" viewBox="0 0 1000 300"
-     xmlns="http://www.w3.org/2000/svg" version="1.1">
-
-  <text x="250" y="180"
-        font-family="Verdana" font-size="64" fill="blue" >
-    Hello, out there!
-  </text>
-
-</svg>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="10cm" height="3cm" version="1.1" viewBox="0 0 1000 300"><text x="250" y="180" fill="#00f" font-family="Verdana" font-size="64">Hello, out there!</text></svg>
