@@ -1,16 +1,1 @@
-﻿<?xml version="1.0" standalone="no"?>
-<svg width="10cm" height="3cm" viewBox="0 0 1000 300"
-  xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <desc>
-    Example tspan04 - The number of rotate values is less than the number of
-    characters in the string.
-  </desc>
-  <text font-family="Verdana" font-size="55" fill="blue" >
-    <tspan x="250" y="150" rotate="-30,0,30">
-      Hello, out there
-    </tspan>
-  </text>
-  <!-- Show outline of viewport using 'rect' element -->
-  <rect x="1" y="1" width="998" height="298"
-  fill="none" stroke="blue" stroke-width="2" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="10cm" height="3cm" version="1.1" viewBox="0 0 1000 300"><desc>Example tspan04 - The number of rotate values is less than the number of characters in the string.</desc><text fill="#00f" font-family="Verdana" font-size="55"><tspan x="250" y="150" rotate="-30,0,30">Hello, out there</tspan></text><rect width="998" height="298" x="1" y="1" fill="none" stroke="#00f" stroke-width="2"/></svg>

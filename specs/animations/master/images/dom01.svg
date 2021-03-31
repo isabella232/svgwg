@@ -1,9 +1,4 @@
-<?xml version="1.0" standalone="no"?>
-<svg width="4cm" height="2cm" viewBox="0 0 400 200"
-     onload="StartAnimation(evt)" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-  <script type="application/ecmascript"><![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" width="4cm" height="2cm" onload="StartAnimation(evt)" version="1.1" viewBox="0 0 400 200"><script type="application/ecmascript"><![CDATA[
     var timevalue = 0;
     var timer_increment = 50;
     var max_time = 5000;
@@ -28,11 +23,4 @@
       setTimeout("ShowAndGrowElement()", timer_increment)
     }
     window.ShowAndGrowElement = ShowAndGrowElement
-  ]]></script>
-  <rect x="1" y="1" width="398" height="198"
-        fill="none" stroke="blue" stroke-width="2"/>
-
-  <g transform="translate(50,150)" fill="red" font-size="7">
-    <text id="TextElement">SVG</text>
-  </g>
-</svg>
+  ]]></script><rect width="398" height="198" x="1" y="1" fill="none" stroke="#00f" stroke-width="2"/><g fill="red" font-size="7" transform="translate(50,150)"><text id="TextElement">SVG</text></g></svg>

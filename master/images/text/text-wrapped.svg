@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-     width="300" height="100" viewBox="0 0 300 100"
-
-  <text x="20" y="45" 
-        font-family="sans-serif"
-	font-size="24"
-	width="250">
-    Example of text
-    <tspan x="20" y="75">auto-wrapped.</tspan>
-  </text>
-
-  <path d="M 20,0 20,200 M 270,0 270,200" stroke="lightblue"/>
-
-</svg>
-
+<svg xmlns="http://www.w3.org/2000/svg">width=&quot;300&quot; height=&quot;100&quot; viewBox=&quot;0 0 300 100&quot;<text width="250" x="20" y="45" font-family="sans-serif" font-size="24">Example of text <tspan x="20" y="75">auto-wrapped.</tspan></text><path stroke="#add8e6" d="M 20,0 20,200 M 270,0 270,200"/></svg>
